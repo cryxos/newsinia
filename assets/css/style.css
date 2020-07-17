@@ -3,6 +3,41 @@ body {
     font-size: 24px;
 }
 
+.barra-menu{
+    border-right: 1px solid #ffffff;
+    float: left; 
+    list-style: none outside none;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: auto;
+}
+
+.input-zoom {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: .375rem .75rem;
+    margin-bottom: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #ffffff;
+    border: 1px solid #c5c5c5;
+    border-radius: .25rem;
+}
+
+.navbar-nav {
+    font-size: 18px;
+}
+
+.navbar-nav li:last-child {
+    border-right:none;
+}
+
 .bg-sinia{
     background-color: #75b72a!important;
 }
@@ -35,6 +70,15 @@ body {
     margin-left: auto;
     margin-right: auto;
     display: block;
+}
+
+.items-god{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.items-center{
+    width: auto;
 }
 
 
