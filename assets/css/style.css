@@ -76,6 +76,11 @@ body {
     display: block;
 }
 
+.img-hover:hover{
+    background-color: #a8a8a8;
+    opacity: 0.5;
+}
+
 .items-god {
     display: flex;
     justify-content: center;
