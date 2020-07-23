@@ -6,16 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     
-    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCX7GEt5yTYdJEPd0F4S9pttgLjQZTMd7I&callback=initMap&libraries=&v=weekly"
-    defer
-  ></script>
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link href="assets/css/style.css" rel="stylesheet" type="text/css">
-    <title>SINIA</title>
- 
-
+    
     <script>
       "use strict";
 
@@ -32,6 +23,16 @@
       }
      
     </script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCX7GEt5yTYdJEPd0F4S9pttgLjQZTMd7I&callback=initMap"></script>
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+    <title>SINIA</title>
+ 
+
+
   </head>
   <body>
     <header class="blog-header py-3 ml-3 mr-3">
@@ -65,20 +66,20 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav mr-auto">
+              <li class="nav-item barra-menu ">
+                <a class="nav-link" href="index.html">Inicio</a>
+              </li>
               <li class="nav-item barra-menu active">
-                <a class="nav-link" href="#">Inicio</a>
+                <a class="nav-link" href="sinia_acerca.html">Acerca de </a>
               </li>
               <li class="nav-item barra-menu ">
-                <a class="nav-link" href="#">Acerca de </a>
+                <a class="nav-link" href="informacion.html">Información</a>
               </li>
               <li class="nav-item barra-menu ">
-                <a class="nav-link" href="#">Información</a>
+                <a class="nav-link" href="novedades.html">Novedades</a>
               </li>
               <li class="nav-item barra-menu ">
-                <a class="nav-link" href="#">Novedades</a>
-              </li>
-              <li class="nav-item barra-menu ">
-                <a class="nav-link" href="#">Interoperabilidad</a>
+                <a class="nav-link" href="interoperabilidad.html">Interoperabilidad</a>
               </li>
             </ul> 
           </div>
@@ -110,7 +111,7 @@
                           <option value="3">Three</option>
                         </select> 
                     </div>
-                    <h5 class="ml-3 pt-2"> o ingresa haciendo click en la región del Mapa  </h5 class="ml-3 pt-2">
+                    <h5 class="ml-3 pt-2"> o ingresa haciendo click en la región del Mapa  </h5>
                 </div>
                 <div class="row">
                   <div id="map"></div>

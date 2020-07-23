@@ -42,6 +42,10 @@ body {
     background-color: #75b72a!important;
 }
 
+.bg-white {
+    background-color: #ffffff!important;
+}
+
 .bg-temas {
     background-color: #b2c905!important;
 }
@@ -66,9 +70,14 @@ body {
     background-color: #eef1f4!important;
 }
 
+.bg-section{
+    background-color: #f7f7f7!important;
+}
+
 .bg-footer-contact {
     background-color: #3c4145!important;
 }
+
 
 .img-center {
     margin-left: auto;
@@ -76,7 +85,7 @@ body {
     display: block;
 }
 
-.img-hover:hover{
+.img-hover:hover {
     background-color: #a8a8a8;
     opacity: 0.5;
 }
@@ -128,7 +137,7 @@ body {
     font-size: 14px;
 }
 
-/***/
+/** Normas Ambientales **/
 
 #map {
     height: 100%;
@@ -139,29 +148,44 @@ body {
     font-size: 16px;
 }
 
+.title-section {
+    font-weight: 700;
+}
+
 .list-group-itemx.active {
     z-index: 2;
     color: #fff;
     background-color: #75b72a;
     border-color: #75b72a;
-} 
+}
+
 .list-group-itemx:first-child {
     border-top-left-radius: inherit;
     border-top-right-radius: inherit;
 }
+
 .list-group-itemx {
     position: relative;
     display: block;
     padding: .75rem 1.25rem;
     background-color: #fff;
-    border: 1px solid rgba(0,0,0,.125);
+    border: 1px solid rgba(0, 0, 0, .125);
 }
-  .list-group-item-actionx {
+
+.list-group-item-actionx {
     width: 100%;
     color: #495057;
     text-align: inherit;
 }
- 
+
+.title-normas{
+    font-size: 10px; 
+    font-weight: 500;
+}
+.nrms-text-description{
+    font-size: 10px; 
+}
+
 /***/
 
 @media(min-width:768px) and (max-width:991px) {
@@ -277,3 +301,5 @@ body {
 }
 
 @media(min-width:991px) {}
+
+ 
