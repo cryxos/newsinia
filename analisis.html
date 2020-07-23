@@ -1,0 +1,372 @@
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--FontAwesome-->
+    <script src="https://kit.fontawesome.com/bc4414f3d8.js" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+    
+    <title>SINIA</title>
+  </head>
+  <body>
+    <header class="blog-header py-3 ml-3 mr-3">
+        <div class="row flex-nowrap justify-content-between align-items-center">
+          <div class="col-8 pt-1">
+            <img src="assets/img/minam_logox.png" >
+            
+          </div>
+  
+          <div class="col-4 d-flex justify-content-end align-items-center">
+            
+            <form class="form-inline mt-2 mt-md-0" >
+              <div class="input-group">
+                <div class="input-group-prepend">
+                  <span class="input-zoom">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mx-3"><circle cx="10.5" cy="10.5" r="7.5"></circle><line x1="21" y1="21" x2="15.8" y2="15.8"></line></svg>
+                  </span>
+                  
+                </div>
+                <input type="text" class="form-control mr-sm-2"  placeholder="Search">
+              </div>
+            </form>
+ 
+          </div>
+        </div>
+    </header>
+    <header> 
+        <nav class="navbar navbar-expand-md navbar-dark bg-sinia"> 
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item barra-menu ">
+                <a class="nav-link" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item barra-menu ">
+                <a class="nav-link" href="sinia_acerca.html">Acerca de </a>
+              </li>
+              <li class="nav-item barra-menu active">
+                <a class="nav-link" href="informacion.html">Información</a>
+              </li>
+              <li class="nav-item barra-menu ">
+                <a class="nav-link" href="novedades.html">Novedades</a>
+              </li>
+              <li class="nav-item barra-menu ">
+                <a class="nav-link" href="interoperabilidad.html">Interoperabilidad</a>
+              </li>
+            </ul> 
+          </div>
+        </nav>
+      </header>
+      <main role="main" class="container">
+
+        <div class="row pt-4">
+          <div class="col-lg-3 ">
+
+            <div class="list-group text-list ">
+              <a href="./regiones.html" class="list-group-itemx list-group-item-action ">Regiones</a>
+              <a href="./tematicas.html" class="list-group-itemx list-group-item-action">Temáticas ambientales</a>
+              <a href="./estadisticas.html" class="list-group-itemx list-group-item-action">Estadísticas</a>
+              <a href="./analisis.html" class="list-group-itemx list-group-item-action active">Ánalisis</a>
+              <a href="./mapas.html" class="list-group-itemx list-group-item-action">Mapas</a>
+              <a href="./publicaciones.html" class="list-group-itemx list-group-item-action">Publicaciones</a>
+              <a href="./normas.html" class="list-group-itemx list-group-item-action">Normas</a>
+            </div>
+
+          </div>
+          <div class="col-lg-9 ">
+             <div class="row">
+                  <p class="title-section ml-3 pt-2">Análisis</p>
+                  <div class="input-group">
+                    <h5 class="ml-3 mr-3 pt-2"> Región</h5>
+                    <div class="form-group col-xs-3">
+                      <select class="form-control" aria-label="Seleccione una región">
+                        <option selected>Seleccione una región...</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                      </select> 
+                    </div>                    
+                  </div> 
+             </div>
+             <div class="row">
+               <div class="col">
+                <div id="map"></div>
+               </div>
+             </div>
+             <div class="row border-top">
+                <p class="title-section ml-3 pt-2">Información geoespacial</p>
+                <p class="ml-3 pt-2">
+                  Son 7 los organismos adscritos al Ministerio del Ambiente, los que se distribuyen
+                  en la región loreto de acuerdo a las actividades que desarrollan, en la región
+                  loreto se cuenta con 8 Jefaturas o Sedes Administrativas del SERNANP; 1 sedes
+                  regionales del PNCBMCC, con intervención en 26 comunidades; 2 Direcciones
+                  Zonales del SENAMHI con 21 estaciones meteorológicas y 15 estaciones
+                  hidrológicas; 1 oficinas desconcertadas del OEFA; 0 oficinas desconcertadas del
+                  INAIGEM; 0 sedes regionales del IGP; 2 oficinas del IIAP y 0 del SENACE.
+                </p>
+             </div>
+             <div class="row border-top">
+              <p class="title-section ml-3 pt-2">Información geoespacial</p>
+               <div class="row ml-3 pt-2">
+                 <div class="col-sm-3">
+                    <p>Población</p>
+                    <p>883 510</p>
+                 </div>
+                 <div class="col-sm-3">
+                    <p>Densidad Poblacional</p>
+                    <p>2 Hab./km2</p>
+                 </div>
+                 <div class="col-sm-3">
+                    <p>Superficie</p>
+                    <p>368 799.5 km2</p>
+                 </div>
+                 <div class="col-sm-3">
+                    <p>Centros Poblados</p>
+                    <p>2 375</p>
+                 </div>
+               </div>
+            </div>
+            <div class="row border-top">
+              <p class="title-section ml-3 pt-2">Estadística ambiental</p>
+         
+              <div class="input-group"> 
+                <div class="form-group col-xs-3 ml-3 mr-3 pt-2">
+                  <select class="form-control" aria-label="Seleccione una región">
+                    <option selected>Seleccione una Temática</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select> 
+                </div>                    
+              </div> 
+              <div class="input-group border ml-3">
+                  <div class="col-sm-12 p-5 ">
+                   <img src="assets/img/char.JPG" width="50%" class="img-center"> 
+                  </div> 
+              </div>
+  
+            </div>
+
+          </div>
+        </div>
+ 
+      </main>
+
+      <footer class="starter-footer  bg-section mt-4 pb-4">
+        <main role="main" class="container">
+          <div class="row  mt-4 ">
+            <div class="col-lg-3 ">
+  
+            </div>
+            <div class="col-lg-9 bg-white mt-4"> 
+              <div class="mt-3">
+                <p class="title-section ml-3 pt-2 ">Normas ambientales</p> 
+                <div class="row p-3"> 
+                  <div class="col-sm-4">
+                     
+                      <div class="float-left">
+                        <img src="assets/img/normasambientales.JPG" width="30%" >
+  
+                        <div class="float-right pr-3">
+                          <p class="title-normas text-wrap float-right">
+                            Ancash: estadísticas<br/>
+                            ambientales, diciembre 2019 
+                          </p>
+                          <p class="nrms-text-description">
+                            Reporte de Denuncias
+                          </p>
+                        </div> 
+                      </div> 
+                    <button type="button" class="btn btn-secondary btn-sm bg-sinia">ver más</button>
+                  </div>
+                  <div class="col-sm-4">
+                     
+                    <div class="float-left">
+                      <img src="assets/img/normasambientales.JPG" width="30%" >
+  
+                      <div class="float-right pr-3">
+                        <p class="title-normas text-wrap float-right">
+                          Ancash: estadísticas<br/>
+                          ambientales, diciembre 2019 
+                        </p>
+                        <p class="nrms-text-description">
+                          Reporte de Denuncias
+                        </p>
+                      </div> 
+                    </div> 
+                    <button type="button" class="btn btn-secondary btn-sm bg-sinia">ver más</button>
+                  </div>
+                  <div class="col-sm-4">
+                     
+                    <div class="float-left">
+                      <img src="assets/img/normasambientales.JPG" width="30%" >
+  
+                      <div class="float-right pr-3">
+                        <p class="title-normas text-wrap float-right">
+                          Ancash: estadísticas<br/>
+                          ambientales, diciembre 2019 
+                        </p>
+                        <p class="nrms-text-description">
+                          Reporte de Denuncias
+                        </p>
+                      </div> 
+                    </div> 
+                    <button type="button" class="btn btn-secondary btn-sm bg-sinia">ver más</button>
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        </main>
+        
+      </footer>
+
+
+      <footer class="starter-footer  mt-4 pb-4">
+        <main role="main" class="container">
+          <div class="row  mt-4 ">
+            <div class="col-lg-3 ">
+  
+            </div>
+            <div class="col-lg-9 mt-4"> 
+              <div class="mt-3">
+                <p class="title-section ml-3 pt-2 ">Publicaciones ambientales</p> 
+                <div class="row p-3"> 
+                  <div class="col-sm-4">
+                    <div class="card " >
+                      <img src="assets/img/card.JPG" class="card-img-top" alt="...">
+                      <div class="card-body bg-footer-carousel ">
+                        <p class="card-text title-card-publi float-left">
+                          Ancash: estadísticas
+                          ambientales, diciembre 2019
+                        </p>
+                        <button type="button" class="btn border btn-circle btn-sm float-right">
+                          <i class="fas fa-chevron-right"></i>
+                        </button> 
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="card " >
+                      <img src="assets/img/card.JPG" class="card-img-top" alt="...">
+                      <div class="card-body bg-footer-carousel ">
+                        <p class="card-text title-card-publi float-left">
+                          Ancash: estadísticas
+                          ambientales, diciembre 2019
+                        </p>
+                         
+                        <button type="button" class="btn border btn-circle btn-sm float-right">
+                          <i class="fas fa-chevron-right"></i>
+                        </button> 
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="card " >
+                      <img src="assets/img/card.JPG" class="card-img-top" alt="...">
+                      <div class="card-body bg-footer-carousel ">
+                        <p class="card-text title-card-publi float-left">
+                          Ancash: estadísticas
+                          ambientales, diciembre 2019
+                        </p>
+                         
+                        <button type="button" class="btn border btn-circle btn-sm float-right">
+                          <i class="fas fa-chevron-right"></i>
+                        </button> 
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        </main>
+        
+      </footer>
+
+      <footer class="starter-footer pt-4">
+        <div class="row bg-footer-carousel ">
+          <div class="col-12 pt-5 pb-5">
+            <h4 class="title-h2">Otros sistemas de información ambiental</h4>
+             
+              <div class="container-fluid pt-2">
+                <div id="carouselExample" class="carousel slide" data-ride="carousel" data-interval="3000">
+                  <div class="carousel-inner row w-100 mx-auto" role="listbox"> 
+                    <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3 active">
+                      <img src="assets/img/banner-geobosques_grey2.png" class="img-fluid mx-auto d-block img-hover" alt="img8">
+                    </div>
+                    <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                      <img src="assets/img/banner-geoservidor-grey2.png" class="img-fluid mx-auto d-block img-hover" alt="img1">
+                    </div>
+                    <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                      <img src="assets/img/banner-sigersol2.png" class="img-fluid mx-auto d-block img-hover" alt="img2">
+                    </div>
+                    <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3 ">
+                      <img src="assets/img/banner-sigrid1.png" class="img-fluid mx-auto d-block img-hover" alt="img3">
+                    </div>
+                    <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                      <img src="assets/img/banner_onia_0.png" class="img-fluid mx-auto d-block img-hover" alt="img4">
+                    </div>
+                    <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                      <img src="assets/img/banner_retc2.png" class="img-fluid mx-auto d-block img-hover" alt="img5">
+                    </div> 
+                  </div>
+                  <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#carouselExample" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+              </div>             
+          
+          </div>
+        </div>
+      </footer>
+      <footer class="starter-footer bg-dark">
+        <div class="row bg-footer-contact text-white">
+          <div class="col-md-6 p-5">
+            <div class="container text-size-footer">
+              <p class="float-right">
+                <p><b>Ministerio del Ambiente</b><br/>
+                 Dirección de Información e Investigación Ambiental</p>
+                
+                <p>Av. Antonio Miró Quesada N°425 (ex Juan de Aliaga)
+                  Urb. San Felipe - Magdalena del Mar, Lima</p>
+             
+                <p>
+                  (511) 6116000
+                </p>
+                <p>
+                  siniasoporte@minam.gob.pe
+                </p>
+              </p>
+              <p>
+                <img src="assets/img/face.png" width="30px" />
+                <img src="assets/img/face.png" width="30px" />
+                <img src="assets/img/face.png" width="30px" />
+                <img src="assets/img/face.png" width="30px" />
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="assets/js/app.js" ></script>
+  </body>
+</html>

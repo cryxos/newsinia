@@ -67,7 +67,7 @@ body {
 }
 
 .bg-footer-carousel {
-    background-color: #eef1f4!important;
+    background-color: #f2f2f2!important;
 }
 
 .bg-section{
@@ -77,6 +77,31 @@ body {
 .bg-footer-contact {
     background-color: #3c4145!important;
 }
+
+.btn-circle.btn-sm { 
+    width: 30px; 
+    height: 30px; 
+    padding: 6px 0px; 
+    border-radius: 15px; 
+    font-size: 8px; 
+    text-align: center; 
+} 
+.btn-circle.btn-md { 
+    width: 50px; 
+    height: 50px; 
+    padding: 7px 10px; 
+    border-radius: 25px; 
+    font-size: 10px; 
+    text-align: center; 
+} 
+.btn-circle.btn-xl { 
+    width: 70px; 
+    height: 70px; 
+    padding: 10px 16px; 
+    border-radius: 35px; 
+    font-size: 12px; 
+    text-align: center; 
+} 
 
 
 .img-center {
@@ -184,6 +209,10 @@ body {
 }
 .nrms-text-description{
     font-size: 10px; 
+}
+
+.title-card-publi {
+    font-size: 13px; 
 }
 
 /***/
