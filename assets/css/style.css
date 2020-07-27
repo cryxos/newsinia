@@ -41,10 +41,7 @@ body {
 .navbar-nav li:last-child {
     border-right: none;
 }
-
-.nav-link{
-    color: #75b72a!important;
-}
+ 
 
 .bg-sinia {
     background-color: #75b72a!important;
