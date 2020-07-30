@@ -346,3 +346,37 @@ body {
 @media(min-width:991px) {}
 
  
+
+
+.input-icons i { 
+    position: absolute; 
+} 
+  
+.input-icons { 
+    width: 100%; 
+    margin-bottom: 10px; 
+} 
+  
+.icon { 
+    padding: 10px; 
+    color: #75b72a; 
+    min-width: 50px; 
+    text-align: center; 
+} 
+   
+
+.redondeadonorelieve {
+    border-radius: 5px;
+    border: 1px solid #39c;
+}
+
+
+
+input[type="text" i] {
+    padding: 1px 2px;
+    font-size: 18px;
+} 
+input { 
+    border-color: -internal-light-dark(rgb(0, 204, 255), white);
+    outline:none;
+}
